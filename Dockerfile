@@ -5,7 +5,7 @@ FROM amazoncorretto:17
 WORKDIR /app
 
 # Sao chép file .war vào container
-COPY ./target/EduCoreSystem-0.0.1-SNAPSHOT.war EduCoreSystem.war
+COPY EduCoreSystem-0.0.1-SNAPSHOT.war EduCoreSystem.war
 
 # Mở cổng 8080
 EXPOSE 8080
