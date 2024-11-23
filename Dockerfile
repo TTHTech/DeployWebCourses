@@ -1,5 +1,5 @@
 # Sử dụng OpenJDK 17
-FROM openjdk:17-jdk-slim
+FROM amazoncorretto:17
 
 # Tạo thư mục làm việc trong container
 WORKDIR /app
